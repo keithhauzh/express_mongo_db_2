@@ -1,9 +1,21 @@
+
+
+
+
+
+
+
+
+
 // import express
 const express = require("express");
 const mongoose = require("mongoose");
 
 // create the express app
 const app = express();
+
+// middleware to handle JSON request
+app.use(express.json());
 
 // connect to MongoDB
 mongoose
