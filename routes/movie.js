@@ -73,7 +73,7 @@ router.put("/:id", async (req, res) => {
     const id = req.params.id;
     const title = req.body.title;
     const director = req.body.director;
-    const releaseYear = req.body.release_year;
+    const release_year = req.body.release_year;
     const genre = req.body.genre;
     const rating = req.body.rating;
     // pass in the data into the updateMovie function
